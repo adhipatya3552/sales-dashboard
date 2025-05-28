@@ -44,21 +44,7 @@ Key Highlights:
 * **Charts**: [Recharts](https://recharts.org/) (LineChart, BarChart, AreaChart)
 * **Icons**: [lucide-react](https://lucide.dev/) for lightweight SVG icons
 * **Animations**: [Framer Motion](https://www.framer.com/motion/)
-* **Type Checking**: TypeScript
-
-## Folder Structure
-
-sales-dashboard/
-├── public/                  
-├── src/
-│   ├── App.tsx              
-│   ├── main.tsx             
-│   └── index.css            
-├── .gitignore
-├── package.json             
-├── tailwind.config.js       
-├── vite.config.ts           
-└── tsconfig.json            
+* **Type Checking**: TypeScript         
 
 ## Installation & Setup
 
