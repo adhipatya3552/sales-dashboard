@@ -1,70 +1,73 @@
 # Sales Dashboard Web App
 
-## Project Overview
+## 📊 Project Overview
 
-The **Sales Dashboard Web App** is a modern, responsive frontend application that visualizes key sales metrics and trends in real time. Built with React, TypeScript, Vite, Tailwind CSS, and Recharts, this dashboard offers interactive charts, animated UI elements, and statistical summary cards to help businesses monitor and analyze revenue, orders, and customer growth across monthly periods.
+The **Sales Dashboard Web App** is a modern, responsive frontend application that visualizes key sales metrics and trends in real time. Built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **Recharts**, this dashboard provides interactive charts, animated UI elements, and statistical summary cards to help businesses monitor and analyze revenue, orders, and customer growth across monthly periods.
 
-Key Highlights:
+### 🔑 Key Highlights
 
-* **Dynamic Metrics**: Display total monthly revenue, orders, and customer counts in prominent statistic cards.
-* **Interactive Charts**: Line, bar, and area charts built with Recharts for trend visualization.
-* **Smooth Animations**: Framer Motion-powered transitions and scroll-triggered effects for an engaging user experience.
-* **Responsive Design**: Tailwind CSS ensures seamless rendering across desktop, tablet, and mobile.
-* **Filtering & Date Selection**: Placeholder filter controls (Filter icon) and calendar picker (Calendar icon) ready to hook into real data sources.
+- **Dynamic Metrics**: Total monthly revenue, orders, and customer counts in prominent statistic cards.
+- **Interactive Charts**: Line, bar, and area charts built with Recharts.
+- **Smooth Animations**: Framer Motion-powered transitions and scroll effects.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile using Tailwind CSS.
+- **Filtering & Date Selection**: UI-ready icons for real-time filter and date picker integrations.
 
-## Features
+---
+
+## ✨ Features
 
 1. **Statistic Summary Cards**
-
-   * Revenue, Orders, Customers overview with up/down trend indicators.
+   - Revenue, Orders, and Customers with trend indicators.
 2. **Revenue Trend Chart**
-
-   * Monthly line chart illustrating revenue fluctuations.
+   - Monthly line chart visualizing revenue fluctuations.
 3. **Orders & Customers Charts**
-
-   * Bar chart for orders per month.
-   * Area chart for customer acquisition trends.
+   - Bar chart for monthly orders.
+   - Area chart showing customer acquisition.
 4. **Animated Hero Section**
-
-   * Full-screen header with title, subtitle, call-to-action button, and scroll CTA.
+   - Full-screen header with title, subtitle, CTA button, and scroll prompt.
 5. **Animated Transitions**
-
-   * Fade-in and slide-up effects for chart and card components on scroll.
+   - Fade-in and slide-up effects on scroll.
 6. **Mock Data**
-
-   * Pre-populated sample sales data for demonstration purposes.
+   - Sample sales data preloaded for demo purposes.
 7. **Extensible Filters**
+   - Filter and calendar icons wired for API integration.
 
-   * UI controls (Filter, Calendar) ready for integration with real-time APIs.
+---
 
-## Tech Stack
+## 🛠 Tech Stack
 
-* **Framework & Bundler**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/) (TypeScript)
-* **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-* **Charts**: [Recharts](https://recharts.org/) (LineChart, BarChart, AreaChart)
-* **Icons**: [lucide-react](https://lucide.dev/) for lightweight SVG icons
-* **Animations**: [Framer Motion](https://www.framer.com/motion/)
-* **Type Checking**: TypeScript         
+- **Framework & Bundler**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/) (TypeScript)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Charts**: [Recharts](https://recharts.org/) (LineChart, BarChart, AreaChart)
+- **Icons**: [lucide-react](https://lucide.dev/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Type Checking**: TypeScript
 
-## Installation & Setup
+---
+
+## 🏁 Installation & Setup
 
 1. **Clone this repository**
 
-   git clone https://github.com/adhipatya3552/sales-dashboard.git
-   
+    ```
+   git clone https://github.com/yourusername/sales-dashboard.git
    cd sales-dashboard
-
+   ```
 2. **Install dependencies**
-
+   
+    ```
    npm install
+   ```
 
 3. **Run Development Server**
-
-   npm run dev
+   
+    ```
+    npm run dev
+   ```
 
    Navigate to `http://localhost:5173` to view the dashboard.
 
-## Customization & Integration
+## 🔧 Customization & Integration
 
 * **Data Source**: Replace the `salesData` array in `src/App.tsx` with calls to your API or a state management store.
 * **Filter Controls**: Hook the filter and calendar icons to open dropdowns or date pickers. Integrate with React state or third-party picker libraries.
