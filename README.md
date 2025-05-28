@@ -49,16 +49,16 @@ Key Highlights:
 ## Folder Structure
 
 sales-dashboard/
-├── public/                  # Static assets and index.html
+├── public/                  
 ├── src/
-│   ├── App.tsx              # Main dashboard component with layout, charts, and cards
-│   ├── main.tsx             # Entry point: ReactDOM render
-│   └── index.css            # Global Tailwind CSS imports
+│   ├── App.tsx              
+│   ├── main.tsx             
+│   └── index.css            
 ├── .gitignore
-├── package.json             # Dependencies & scripts
-├── tailwind.config.js       # Tailwind configuration
-├── vite.config.ts           # Vite configuration for React + TypeScript
-└── tsconfig.json            # TypeScript compiler settings
+├── package.json             
+├── tailwind.config.js       
+├── vite.config.ts           
+└── tsconfig.json            
 
 ## Installation & Setup
 
